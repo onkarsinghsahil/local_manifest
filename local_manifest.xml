@@ -11,7 +11,7 @@
  
  
 <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="pixysos" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="onkarsinghsahil" revision="main" />
+ <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
 </manifest>
