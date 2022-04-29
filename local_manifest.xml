@@ -3,7 +3,7 @@
  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
 
-<project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="streak" />
+<project path="device/xiaomi/mido" name="device_xiaomi_mido-2" remote="onkarsinghsahil" revision="evo" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="PixelExperience" revision="twelve" />
