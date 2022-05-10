@@ -13,7 +13,7 @@
  <project path="system/bt" name="system_bt" remote="onkarsinghsahil" revision="twelve" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido_1" remote="onkarsinghsahil" revision="Cipher" />
+ <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_new" remote="onkarsinghsahil" revision="pixys" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
