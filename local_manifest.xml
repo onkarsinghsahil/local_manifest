@@ -12,6 +12,9 @@
  <remove-project name="system_bt" />
  <project path="system/bt" name="system_bt" remote="onkarsinghsahil" revision="twelve" />
  
+ <remove-project name="vendor_pixys" />
+ <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="twelve" />
+
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_new" remote="onkarsinghsahil" revision="patch-1" />
  <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="NRanjan-17" revision="lineage-19.1" />
