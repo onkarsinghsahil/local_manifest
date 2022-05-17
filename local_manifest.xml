@@ -4,11 +4,7 @@
  <remote name="Linos" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_new" remote="onkarsinghsahil" revision="fuse" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
- 
- <remove-project name="android_packages_resources_devicesettings" />
- <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-19.1" />
-
+   <project path="device/xiaomi/msm8937-common"  name="android_device_xiaomi_msm8937-common" remote="onkarsinghsahil" revision="lineage-19.1"/>
+   <project path="kernel/xiaomi/msm8937" remote="onkarsinghsahil" name="android_kernel_xiaomi_msm8937" revision="a12/master"/>
+   <project path="vendor/xiaomi/msm8937-common"  name="proprietary_vendor_xiaomi_msm8937-common" remote="onkarsinghsahil" revision="lineage-19.1"/>
 </manifest>
