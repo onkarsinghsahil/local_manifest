@@ -5,20 +5,10 @@
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="Linos" fetch="https://github.com/LineageOS" />
 
- <!-- Telephony -->
- <remove-project name="frameworks_opt_telephony" />
- <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="onkarsinghsahil" revision="twelve" />
-
- <!-- System-BT -->
- <remove-project name="system_bt" />
- <project path="system/bt" name="system_bt" remote="onkarsinghsahil" revision="twelve" />
- 
- <remove-project name="vendor_pixys" />
- <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="twelve" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_new" remote="onkarsinghsahil" revision="pixysos" />
- <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="NRanjan-17" revision="lineage-19.1" />
+ <project path="device/xiaomi/mido" name="android_device_xiaomi_mido_new" remote="onkarsinghsahil" revision="xdroid" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
 <!-- Addon -->
