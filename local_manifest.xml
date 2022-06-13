@@ -6,14 +6,11 @@
  <remote name="Linos" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="wip" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12.1" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
 
  <remove-project name="android_packages_resources_devicesettings" />
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-19.1" />
-
- <remove-project name="platform_hardware_qcom_display" />
- <project path="hardware/qcom/display" name="qcom_display" remote="Alone0316" revision="12.0-caf-msm8996" />
 
 </manifest>
