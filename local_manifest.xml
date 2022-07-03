@@ -10,8 +10,5 @@
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
-<!-- Addon -->
-        <remove-project name="android_packages_resources_devicesettings" />
-        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Linos" revision="lineage-19.1" />
 
 </manifest>
