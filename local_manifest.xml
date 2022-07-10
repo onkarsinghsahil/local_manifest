@@ -6,11 +6,11 @@
  <remote name="Linos" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="voltage" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="pixys" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
  <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
+ <!--project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" /-->
 
 </manifest>
