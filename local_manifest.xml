@@ -2,11 +2,22 @@
 <manifest>
  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-
+  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="spark" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="voltage" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
+ 
+ <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+ <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="12.1.x" />
+ 
+ 
+ <!-- Wlan -->
+ <remove-project name="android_hardware_qcom_wlan" />
+ 
+ <!-- Wlan -->
+ <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="onkarsinghsahil" revision="12.1.x-caf" />
  
  <!-- Proton -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
