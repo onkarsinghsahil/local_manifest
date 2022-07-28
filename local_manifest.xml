@@ -15,5 +15,4 @@
  
  <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aex" revision="12.1.x />
-
 </manifest>
