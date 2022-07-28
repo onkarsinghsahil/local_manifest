@@ -12,11 +12,8 @@
  <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aex" revision="12.1.x />
  
- 
  <!-- Wlan -->
  <remove-project name="android_hardware_qcom_wlan" />
- 
- <!-- Wlan -->
  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="onkarsinghsahil" revision="12.1.x-caf" />
  
  <!-- Proton -->
