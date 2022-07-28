@@ -2,7 +2,7 @@
 <manifest>
  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <remote name="aex-tmp" fetch="https://github.com/aex-tmp" />
+  <remote name="aex" fetch="https://github.com/AospExtended" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="spark" />
@@ -10,7 +10,7 @@
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
  <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
- <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aex-tmp" revision="12.1.x />
+ <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aex" revision="12.1.x />
  
  
  <!-- Wlan -->
