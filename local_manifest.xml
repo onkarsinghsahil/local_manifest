@@ -6,7 +6,7 @@
  <remote name="Linos" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="wip" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12l" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="voltage" />
  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="onkarsinghsahil" revision="lineage-19.1" />
  
