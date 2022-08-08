@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
- <remote name="Alone0316" fetch="https://github.com/Alone0316" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="Linos" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12l" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="voltage" />
  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="onkarsinghsahil" revision="lineage-19.1" />
  
- <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
-
 </manifest>
