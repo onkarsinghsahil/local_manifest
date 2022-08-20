@@ -5,14 +5,7 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12.1" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="voltage" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
- <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
- 
- <remove-project name="xd_frameworks_base" />
- <project path="frameworks/base" name="xd_frameworks_base" remote="onkarsinghsahil" revision="twelve" />
-
-
 </manifest>
