@@ -4,7 +4,7 @@
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12.1" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="spark1" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
