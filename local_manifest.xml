@@ -5,7 +5,7 @@
   <remote name="aex" fetch="https://github.com/AospExtended" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12l" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="new" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
