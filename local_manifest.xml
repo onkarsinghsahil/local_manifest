@@ -6,14 +6,8 @@
   <remote name="aex" fetch="https://github.com/AospExtended" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="spark" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="voltage" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12.1L" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
- <!-- Wlan -->
- <remove-project name="android_hardware_qcom_wlan" />
- <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="onkarsinghsahil" revision="12.1.x-caf" />
- 
- <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
- <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aex" revision="12.1.x />
  </manifest>
