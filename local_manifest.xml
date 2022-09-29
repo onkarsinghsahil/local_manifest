@@ -3,10 +3,10 @@
  
  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <remote name="aex" fetch="https://github.com/AospExtended" />
+  <remote name="Eternity-Devices" fetch="https://github.com/Eternity-Devices" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="12.1L" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Eternity-Devices" revision="wip" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
