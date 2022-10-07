@@ -3,10 +3,11 @@
  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
   <remote name="aex" fetch="https://github.com/AospExtended" />
- 
+  <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="wip" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
+ <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="android_prebuilts_clang_host_linux-x86_clang-r437112" remote="ArrowOS-Devices" revision="arrow-11.0" />
  </manifest>
