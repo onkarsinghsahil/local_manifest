@@ -6,7 +6,7 @@
   <remote name="Eternity-Devices" fetch="https://github.com/Eternity-Devices" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Eternity-Devices" revision="wip" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="Eternity-Devices" revision="tiramisu" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
  
