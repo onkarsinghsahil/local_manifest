@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
-  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-  <remote name="aex" fetch="https://github.com/AospExtended" />
+
+
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
+ <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="onkarsinghsahil" revision="spark" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="onkarsinghsahil" revision="lineage-20.0" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
- 
+
+
+<project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
  <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="android_prebuilts_clang_host_linux-x86_clang-r437112" remote="ArrowOS-Devices" revision="master" />
  </manifest>
