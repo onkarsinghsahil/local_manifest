@@ -12,5 +12,4 @@
 
 
 <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
- <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="android_prebuilts_clang_host_linux-x86_clang-r437112" remote="ArrowOS-Devices" revision="master" />
- </manifest>
+ <project path="prebuilts/6_clang-r437112" remote="ArrowOS-Devices
